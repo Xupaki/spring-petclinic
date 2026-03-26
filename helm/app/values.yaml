@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: xupaky/spring-petclinic
-  tag: "v2.0"
+  tag: "v3.0"
   pullPolicy: IfNotPresent
 
 service:
