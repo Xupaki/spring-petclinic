@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
         DOCKER_IMAGE = "xupaky/spring-petclinic"
-        DOCKER_TAG = "v1.0"
+        DOCKER_TAG = "v2.0"
         SONAR_PROJECT_KEY = "spring-petclinic"
     }
 
